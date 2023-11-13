@@ -37,6 +37,9 @@
   justify-content: space-between;
   align-items: center;
   margin: 16px 0;
+  padding: 16px 0;
+  color: #b15280;
+  border-bottom: 1px solid #333;
 }
 
 .read-the-docs {

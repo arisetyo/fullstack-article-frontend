@@ -59,13 +59,13 @@ function App() {
     
       <h2>Todo List</h2>
       {
-        data && data.todos && data.todos.map((i) => (
+        data && data.todos && data.todos.map((i, index) => (
           <div
             className={"todo"}
             key={i.id}
           >
             <span>
-              {i.id} - {i.title}
+              <strong>{index + 1})</strong> {i.title}
             </span>
             <button
               onClick={() => removeHandler(i.id)}
